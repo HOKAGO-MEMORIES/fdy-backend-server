@@ -12,7 +12,7 @@ app.use(function(req, res, next) {
   next();
 });
 
-const dbUrl = 'mongodb+srv://ghtirj123:Pa5CUnGGBHvvAe5y@cluster0.g2kpxju.mongodb.net/test/flowers';
+const dbUrl = 'mongodb+srv://ghtirj123:Pa5CUnGGBHvvAe5y@cluster0.g2kpxju.mongodb.net/test/';
 
 mongoose.connect(dbUrl, {
   useNewUrlParser: true,
