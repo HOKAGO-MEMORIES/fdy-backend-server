@@ -34,7 +34,7 @@ const flowerSchema = new mongoose.Schema({
 const Flower = mongoose.model('Flower', flowerSchema, 'flowers');
 
 app.get('/flowers', async (req, res) => {
-  const flowername = req.query.flowername;
+  const flowername = req.query.flowername_kr;
 
   try { 
     
